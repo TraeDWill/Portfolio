@@ -11,7 +11,7 @@ nav {
   margin-top: 18px;
 }
 
-a {
+.page-change {
     color:#0d1117;
     background-color: #00FFFF;
     padding: 8px 15px;
@@ -26,7 +26,7 @@ a {
     transition: all .3s ease;
 }
 
-a:hover{
+.page-change:hover{
     background-color: #22c55e;
 }
 
@@ -34,7 +34,7 @@ a:hover{
   text-align: center;
   border: 10px inset #00FFFF;
   width: 325px;
-  height: 125px;
+  height: 150px;
   margin: 40px auto;
   border-radius: 5px;
   box-shadow: 4px 4px 10px #9CA3AF;
@@ -50,10 +50,53 @@ a:hover{
   text-wrap:wrap;
 }
 
-.left-project{
+.project{
+  display: flex;
+  border: 5px inset #37eb79;
+  width: 75%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0;
+}
+
+.project-image{
+  width: 30%;
+  margin: 25px auto;
+}
+
+.project-description{
+  margin: auto;
+  width: 55%;
+  text-align: center;
+}
+
+#self-desc{
+  display: block;
+  width: 38%;
+  margin: 0 auto 15px;
+  padding: auto 0;
+  font-size: large;
+  text-align: center;
 
 }
 
-.right-project{
+.right{}
 
+.left{}
+
+.project-logo{
+  width:100%;
+}
+
+#technologies{
+  display: flex;
+  gap: 5px;
+  margin: 25px auto;
+  width: 75%;
+  justify-content: space-between;
+}
+
+#tech{
+  height: 100px;
+  width: 100px;
 }
