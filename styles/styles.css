@@ -1,21 +1,7 @@
 body {
   background-color: #0d1117;
   color: #f3f4f6;
-}
-
-a {
-    color:#0d1117;
-    background-color: #00FFFF;
-    padding: 8px 15px;
-    width: 75px;
-    text-align: center;
-    border: 3.58px solid 	#374151;
-    box-shadow: 4px 4px 10px rgba(0, 255, 255, 0.4);
-    border-radius: 8px;
-    text-decoration: none;
-    font-size:large;
-    font-family: 'Orbitron', sans-serif;
-    transition: all .3s ease;
+  font-family: "Anek Devanagari", sans-serif;
 }
 
 nav {
@@ -25,6 +11,49 @@ nav {
   margin-top: 18px;
 }
 
+a {
+    color:#0d1117;
+    background-color: #00FFFF;
+    padding: 8px 15px;
+    width: 75px;
+    text-align: center;
+    border: 3.5px solid 	#374151;
+    box-shadow: 4px 4px 10px rgba(0, 255, 255, 0.4);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size:large;
+    font-family: 'Orbitron', sans-serif;
+    transition: all .3s ease;
+}
+
 a:hover{
     background-color: #22c55e;
+}
+
+#greetings{
+  text-align: center;
+  border: 10px inset #00FFFF;
+  width: 325px;
+  height: 125px;
+  margin: 40px auto;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px #9CA3AF;
+}
+
+#intro{
+  letter-spacing: 1px;
+  margin: 20px 0px;
+}
+
+#some-kind{
+  font-size:large;
+  text-wrap:wrap;
+}
+
+.left-project{
+
+}
+
+.right-project{
+
 }
