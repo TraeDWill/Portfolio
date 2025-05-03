@@ -30,7 +30,7 @@ nav {
     background-color: #22c55e;
 }
 
-#greetings{
+.greetings{
   text-align: center;
   border: 10px inset #00FFFF;
   width: 325px;
@@ -40,7 +40,7 @@ nav {
   box-shadow: 4px 4px 10px #9CA3AF;
 }
 
-#intro{
+.intro{
   letter-spacing: 1px;
   margin: 20px 0px;
 }
@@ -108,4 +108,28 @@ nav {
 .tech-image:hover{
   transform: scale(1.2);
   transition: all .3s ease;
+}
+
+.about{
+  height: 85px;
+}
+
+.AM{
+  display: flex;
+  margin: 25px auto;
+  justify-content: center;
+  align-items: center;
+}
+.AM-image{
+  height: 160px;
+}
+
+.about-me-description{
+  text-align: center;
+  width: 60%;
+  margin: 25px auto;
+}
+
+.mthood{
+  background-color: #fff;
 }
