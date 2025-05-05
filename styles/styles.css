@@ -56,9 +56,9 @@ nav {
 .project{
   display: flex;
   border: 5px inset #37eb79;
-  width: 75%;
   justify-content: space-between;
-  margin: auto;
+  width: 100%
+  margin: auto 0;
   padding: 0;
   border-radius: 5px;
   box-shadow: 4px 4px 10px #9CA3AF;
@@ -93,7 +93,7 @@ nav {
   display: flex;
   gap: 15px;
   margin: 25px auto;
-  width: 75%;
+  width: 100%;
   justify-content: space-between;
   flex-direction:column;
 }
@@ -106,7 +106,7 @@ nav {
 .section-header{
   display: block;
   text-align: center;
-  margin: 30px auto 35px;
+  margin: 30px auto 6px;
   border: 5px inset #A855F7;
   width: 200px;
   border-radius: 5px;
@@ -146,4 +146,21 @@ nav {
 
 .new-layout{
   display: flex;
+  justify-content: space-between;
+}
+
+#tech-sec{
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+#proj-sec{
+  display:flex;
+  width:80%;
+  flex-direction:column;
+}
+
+.tech-title{
+  width:100%;
 }
