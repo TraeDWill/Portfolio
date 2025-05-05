@@ -91,10 +91,11 @@ nav {
 
 #technologies{
   display: flex;
-  gap: 5px;
+  gap: 15px;
   margin: 25px auto;
   width: 75%;
   justify-content: space-between;
+  flex-direction:column;
 }
 
 #tech{
@@ -126,9 +127,11 @@ nav {
   margin: 25px auto;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .AM-image{
   height: 160px;
+  border-radius: 5px;
 }
 
 .about-me-description{
@@ -139,4 +142,8 @@ nav {
 
 .mthood{
   background-color: #fff;
+}
+
+.new-layout{
+  display: flex;
 }
