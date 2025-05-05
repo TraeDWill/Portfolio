@@ -8,7 +8,6 @@ nav {
   display: flex;
   gap: 0.3em;
   justify-content: flex-end;
-  margin-top: 18px;
 }
 
 .page-change {
@@ -32,22 +31,26 @@ nav {
 
 .greetings{
   text-align: center;
-  border: 10px inset #00FFFF;
-  width: 325px;
-  height: 150px;
-  margin: 40px auto;
+  border: 5px inset #00FFFF;
+  width: 99%;
+  height: 200px;
+  margin: 0px auto 20px;
   border-radius: 5px;
   box-shadow: 4px 4px 10px #9CA3AF;
 }
 
 .intro{
   letter-spacing: 1px;
-  margin: 20px 0px;
+  height: 5px;
+  margin: 50px auto 0px;
+  font-size: 3em;
 }
 
 #some-kind{
+  margin-top: 45px;
   font-size:large;
   text-wrap:wrap;
+  font-size: 1.5em;
 }
 
 .project{
@@ -57,6 +60,8 @@ nav {
   justify-content: space-between;
   margin: auto;
   padding: 0;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px #9CA3AF;
 }
 
 .project-image{
@@ -73,11 +78,11 @@ nav {
 #self-desc{
   display: block;
   width: 38%;
-  margin: 0 auto 15px;
+  margin: 15px auto 15px;
   padding: auto 0;
   font-size: large;
   text-align: center;
-
+  font-size: 1.3em;
 }
 
 .project-logo{
@@ -103,6 +108,8 @@ nav {
   margin: 30px auto 35px;
   border: 5px inset #A855F7;
   width: 200px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px #9CA3AF;
 }
 
 .tech-image:hover{
