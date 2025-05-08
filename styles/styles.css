@@ -147,6 +147,7 @@ nav {
 .new-layout{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #tech-sec{
