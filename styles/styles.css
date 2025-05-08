@@ -57,11 +57,12 @@ nav {
   display: flex;
   border: 5px inset #37eb79;
   justify-content: space-between;
-  width: 100%
+  width: 100%;
   margin: auto 0;
   padding: 0;
   border-radius: 5px;
   box-shadow: 4px 4px 10px #9CA3AF;
+  flex-wrap: wrap;
 }
 
 .project-image{
@@ -160,8 +161,74 @@ nav {
   display:flex;
   width:80%;
   flex-direction:column;
+  flex-wrap:wrap;
 }
 
 .tech-title{
   width:100%;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1.5em;
+  }
+
+  #self-desc{
+    width: 80%;
+
+  }
+
+  .new-layout{
+    flex-direction: column;
+    width:  100%;
+  }
+
+  .section-header{
+    width:100%;
+  }
+
+  #proj-sec{
+    width:100%;
+  }
+
+  .project{
+    flex-direction: column;
+  }
+  
+  .project-image{
+    margin: 2em auto 0;
+  }
+
+  .project-description{
+    width: 90%;
+  }
+
+  #tech-sec{
+    width: 100%;
+  }
+  
+  .tech-image{
+    width: 45%;
+    flex-wrap: wrap;
+  }
+  
+  #technologies{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .about-me-description{
+    width:95%;
+    font-size: 1.2em;
+  }
+
+  .AM{
+    flex-direction: column;
+  }
+  .AM-image{
+    width:80%;
+  }
 }
