@@ -1,7 +1,7 @@
 body {
   background-color: #0d1117;
   color: #f3f4f6;
-  font-family: "Anek Devanagari", sans-serif;
+  font-family: 'Anek Devanagari', sans-serif;
 }
 
 nav {
@@ -11,49 +11,49 @@ nav {
 }
 
 .page-change {
-    color:#0d1117;
-    background-color: #00FFFF;
-    padding: 8px 15px;
-    width: 75px;
-    text-align: center;
-    border: 3.5px solid 	#374151;
-    box-shadow: 4px 4px 10px rgba(0, 255, 255, 0.4);
-    border-radius: 8px;
-    text-decoration: none;
-    font-size:large;
-    font-family: 'Orbitron', sans-serif;
-    transition: all .3s ease;
-}
-
-.page-change:hover{
-    background-color: #22c55e;
-}
-
-.greetings{
+  color: #0d1117;
+  background-color: #00ffff;
+  padding: 8px 15px;
+  width: 75px;
   text-align: center;
-  border: 5px inset #00FFFF;
+  border: 3.5px solid #374151;
+  box-shadow: 4px 4px 10px rgba(0, 255, 255, 0.4);
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.page-change:hover {
+  background-color: #22c55e;
+}
+
+.greetings {
+  text-align: center;
+  border: 5px inset #00ffff;
   width: 99%;
   height: 200px;
   margin: 0px auto 20px;
   border-radius: 5px;
-  box-shadow: 4px 4px 10px #9CA3AF;
+  box-shadow: 4px 4px 10px #9ca3af;
 }
 
-.intro{
+.intro {
   letter-spacing: 1px;
   height: 5px;
   margin: 50px auto 0px;
   font-size: 3em;
 }
 
-#some-kind{
+#some-kind {
   margin-top: 45px;
-  font-size:large;
-  text-wrap:wrap;
+  font-size: large;
+  text-wrap: wrap;
   font-size: 1.5em;
 }
 
-.project{
+.project {
   display: flex;
   border: 5px inset #37eb79;
   justify-content: space-between;
@@ -61,22 +61,22 @@ nav {
   margin: auto 0;
   padding: 0;
   border-radius: 5px;
-  box-shadow: 4px 4px 10px #9CA3AF;
+  box-shadow: 4px 4px 10px #9ca3af;
   flex-wrap: wrap;
 }
 
-.project-image{
+.project-image {
   width: 30%;
   margin: 25px auto;
 }
 
-.project-description{
+.project-description {
   margin: auto;
   width: 55%;
   text-align: center;
 }
 
-#self-desc{
+#self-desc {
   display: block;
   width: 38%;
   margin: 15px auto 15px;
@@ -86,86 +86,86 @@ nav {
   font-size: 1.3em;
 }
 
-.project-logo{
-  width:100%;
+.project-logo {
+  width: 100%;
 }
 
-#technologies{
+#technologies {
   display: flex;
   gap: 15px;
   margin: 25px auto;
   width: 100%;
   justify-content: space-between;
-  flex-direction:column;
+  flex-direction: column;
 }
 
-#tech{
+#tech {
   height: 100px;
   width: 100px;
 }
 
-.section-header{
+.section-header {
   display: block;
   text-align: center;
   margin: 30px auto 6px;
-  border: 5px inset #A855F7;
+  border: 5px inset #a855f7;
   width: 200px;
   border-radius: 5px;
-  box-shadow: 4px 4px 10px #9CA3AF;
+  box-shadow: 4px 4px 10px #9ca3af;
 }
 
-.tech-image:hover{
+.tech-image:hover {
   transform: scale(1.2);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
-.about{
+.about {
   height: 180px;
 }
 
-.AM{
+.AM {
   display: flex;
   margin: 25px auto;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.AM-image{
+.AM-image {
   height: 160px;
   border-radius: 5px;
 }
 
-.about-me-description{
+.about-me-description {
   text-align: center;
-  width: 60%;
+  width: 50%;
   margin: 25px auto;
 }
 
-.mthood{
+.mthood {
   background-color: #fff;
 }
 
-.new-layout{
+.new-layout {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#tech-sec{
+#tech-sec {
   width: 20%;
   align-items: center;
   justify-content: center;
 }
 
-#proj-sec{
-  display:flex;
-  width:80%;
-  flex-direction:column;
-  flex-wrap:wrap;
+#proj-sec {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.tech-title{
-  width:100%;
+.tech-title {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -176,59 +176,58 @@ nav {
     margin-top: 1.5em;
   }
 
-  #self-desc{
+  #self-desc {
     width: 80%;
-
   }
 
-  .new-layout{
+  .new-layout {
     flex-direction: column;
-    width:  100%;
+    width: 100%;
   }
 
-  .section-header{
-    width:100%;
+  .section-header {
+    width: 100%;
   }
 
-  #proj-sec{
-    width:100%;
+  #proj-sec {
+    width: 100%;
   }
 
-  .project{
+  .project {
     flex-direction: column;
   }
-  
-  .project-image{
+
+  .project-image {
     margin: 2em auto 0;
   }
 
-  .project-description{
+  .project-description {
     width: 90%;
   }
 
-  #tech-sec{
+  #tech-sec {
     width: 100%;
   }
-  
-  .tech-image{
+
+  .tech-image {
     width: 45%;
     flex-wrap: wrap;
   }
-  
-  #technologies{
+
+  #technologies {
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .about-me-description{
-    width:95%;
+  .about-me-description {
+    width: 95%;
     font-size: 1.2em;
   }
 
-  .AM{
+  .AM {
     flex-direction: column;
   }
-  .AM-image{
-    width:80%;
+  .AM-image {
+    width: 80%;
   }
 }
